@@ -1,0 +1,89 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/my/my",
+        "pages/check/check",
+        "pages/task/task",
+        "pages/feedback/feedback",
+        "pages/sz/sz",
+        "pages/work/work",
+        "pages/xx/xx",
+        "pages/oil_leak_alarm/oil_leak_alarm",
+        "pages/overspeed_alarm/overspeed_alarm",
+        "pages/overtime_parking/overtime_parking",
+        "pages/user_report/user_report",
+        "pages/tmap/tmap",
+        "pages/cd/cd",
+        "pages/modify_point_sequence/modify_point_sequence",
+        "pages/task_completion/task_completion",
+        "pages/historical_task/historical_task",
+        "pages/tmap2/tmap2",
+        "pages/jian/jian",
+        "pages/router/router",
+        "pages/about/about",
+        "pages/news/news",
+        "pages/help/help",
+        "pages/navigation/navigation"
+    
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#ededed",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black"
+    },
+    "navigationBarBackgroundColor": "#ededed",
+    "sitemapLocation": "sitemap.json",
+    "tabBar": {
+        "borderStyle": "black",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "pages/image/2/nav/home.png",
+                "text": "首页",
+                "selectedIconPath": "pages/image/2/nav/home.png"
+            },
+            {
+                "pagePath": "pages/task/task",
+                "text": "工作",
+                "iconPath": "pages/image/2/nav/work.png",
+                "selectedIconPath": "pages/image/2/nav/work.png"
+            },
+            {
+                "pagePath": "pages/my/my",
+                "text": "我的",
+                "iconPath": "pages/image/2/nav/user.png",
+                "selectedIconPath": "pages/image/2/nav/user.png"
+            }
+        ]
+    },
+    "permission": {
+        "scope.userLocation": {
+            "desc": "你的位置信息将用于小程序定位",
+            "status": 404,
+            "message": "错误的请求路径"
+        }
+    },
+    "plugins": {
+        "routePlan": {
+            "version": "1.0.18",
+            "provider": "wx50b5593e81dd937a"
+        },
+        "chooseLocation": {
+            "version": "1.0.9",
+            "provider": "wx76a9a06e5b4e693e"
+        }
+    },
+    "usingComponents": {
+        "van-button": "@vant/weapp/button/index",
+        "van-uploader": "@vant/weapp/uploader/index",
+        "van-row": "@vant/weapp/row/index",
+        "van-col": "@vant/weapp/col/index",
+        "van-field": "@vant/weapp/field/index",
+        "van-calendar": "@vant/weapp/calendar/index",
+        "van-steps": "@vant/weapp/steps/index",
+        "van-icon": "@vant/weapp/icon/index",
+        "van-circle": "@vant/weapp/circle/index",
+        "van-toast": "@vant/weapp/toast/index"
+    }
+}
